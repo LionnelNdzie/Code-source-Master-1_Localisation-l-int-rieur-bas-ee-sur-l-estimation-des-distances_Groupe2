@@ -1,6 +1,15 @@
 RSSI based indoor localisation
 ==============================
 
+Liste du matériel utilisé
+=========================
+- Ubuntu 12.04
+- Contiki-2.7
+- Cooja
+
+instructions d'exploitation du code source/logiciel/script
+==========================================================
+
 Open a terminal and go to "<CONTIKI_HOME>/examples/rest-example/" directory.
 
 MAIN EXAMPLE: rest-server-example-z1.c coap-client-example-coord coap-client-example-anchor1 coap-client-example-anchor2 : 
@@ -41,17 +50,6 @@ To run REST server on real nodes (i.e. z1 motes)
 		python contiki-viewer.py
 		
 
-TODO
-----
-
-- Better option handling needed - ex: critical options are not differentiated
-  for now. Need to add support for some such as Tokens. Also, C/E difference
-  should be added.
-- Reilable message sending is missing. i.e. client example should resend
-  request in case ACK does not arrive. Same for server pushing (in case of
-  subscriptions)
-- Add Block transfer example
-- Add Subscription example
-- Add an Android/Java COAP Client to Contikiprojects to be able to interact
-  with Contiki.
-- COAP-specific Method Codes
+Contact du candidat
+===================
+Tels: 693 562 499 / 653 87 97 10 / 690 90 72 06
